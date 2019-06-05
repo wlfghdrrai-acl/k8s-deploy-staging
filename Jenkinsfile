@@ -3,7 +3,8 @@
 def tagMatchRules = [
   [
     meTypes: [
-      [meType: 'SERVICE','PROCESS_GROUP_INSTANCE']
+      [meType: 'SERVICE'],
+      [meType: 'PROCESS_GROUP_INSTANCE']
     ],
     tags : [
       [context: 'CONTEXTLESS', key: 'app', value: ''],
